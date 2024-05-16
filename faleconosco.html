@@ -3,12 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
-    <link rel="stylesheet" href="style1.css">
+   
+    <link rel="stylesheet" type="text/css" href="faleconosco.css">
+</head>
+    <title>Casa dos Parafusos</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #000000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .logo {
+            float: left;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 <body>
 
 <header>
+    <img src="logopretajk - Copia.png" alt="Logo do Site" class="logo" style="height: 60px;"> 
     <nav>
         <ul>
             <li><a onclick="redirectToForm('jk.html')" href="#inicio">Início</a></li>
@@ -19,6 +54,57 @@
     </nav>
 </header>
 
+<div class="container">
+    <!-- Conteúdo principal da página -->
+</div>
+
+
+
+
+
+
+<div class="login-box">
+ 
+    <form>
+      <div class="user-box">
+        <input type="text" name="" required="">
+        <label>Nome completo</label>
+      </div>
+      <div class="user-box">
+        <input type="text" data-ls-module="charCounter" maxlength="20" name="" required="Email">
+        <label>Email</label>
+      </div>
+      <div class="user-box">
+        <input type="text" data-ls-module="charCounter" maxlength="20"  name="" required="Telefone">
+        <label>Telefone</label>
+        <div class="user-box">
+            <input type="text" data-ls-module="charCounter" maxlength="500"name="" required="Assunto">
+            <label>Assunto</label>
+          </div>
+      </div><center>
+      <a href="#">
+             ENVIAR
+         <span></span>
+      </a></center>
+    </form>
+  </div>
+
+
+
+
+
+
+  <div class="card">
+    <a class="card1" href="#">
+     <p>Atenção</p>
+     <p class="small">Você pode utilizar o formulário ao lado para enviar suas dúvidas, sugestões ou pedidos. Assim que recebermos o seu formulário, nossa equipe de atendimento irá revisar cuidadosamente suas informações e responderemos prontamente ao e-mail fornecido.</p>
+     <div class="go-corner" href="#">
+       <div class="go-arrow">
+         →
+       </div>
+     </div>
+   </a>
+ </div>
 
 
 
@@ -30,8 +116,6 @@
         window.location.href = page;
     }
 </script>
-
-
 
 </body>
 </html>
