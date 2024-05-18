@@ -108,6 +108,8 @@
     font-weight: 400;
     line-height: 20px;
     color: #666;
+    position: relative;
+  
   }
   
   .card p.small {
@@ -129,7 +131,7 @@
   }
   
   .go-arrow {
-    margin-top: -4px;
+    margin-top: -8px;
     margin-right: -4px;
     color: white;
     font-family: courier, sans;
